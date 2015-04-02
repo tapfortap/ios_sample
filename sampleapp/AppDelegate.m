@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TapForTap.framework/Headers/TFTTapForTap.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [TFTTapForTap initializeWithAPIKey: @"3d323e6d58c83e06dba2547ec54f8afc"];
+
     return YES;
 }
 

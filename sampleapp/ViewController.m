@@ -17,8 +17,6 @@
 
 - (IBAction)break:(id)sender {
 
-    [TFTTapForTap initializeWithAPIKey: @"3d323e6d58c83e06dba2547ec54f8afc"];
-
     [TFTInterstitial loadBreakInterstitialWithCallbackOnReceivedAd:^(TFTInterstitial *interstitial) {
         [interstitial showWithViewController:self];
     } onAdDidFail:^(TFTInterstitial *interstitial, NSString *reason) {
@@ -54,7 +52,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    // Position a banner ad at the bottom of the screen
+    TFTBanner *bannerAd = [TFTBanner bannerWithFrame:CGRectMake(0, (self.view.frame.size.height - 50), self.view.frame.size.width, 50) delegate:nil];
+    [self.view addSubview:bannerAd];
 }
 
 - (void)didReceiveMemoryWarning {
