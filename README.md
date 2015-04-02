@@ -17,12 +17,12 @@
     - `CoreTelephony.framework`
     - `AVFoundation.framework`
     - `AudioToolbox.framework`
-    - `iOS_Tutela_SDK.framework` (Not required with public release)
+    - `iOS_Tutela_SDK.framework` (Not required in final release)
     - `libz.dylib`
     - `AdSupport.framework`
     - `MobileCoreServices.framework`
     - `CoreMotion.framework`
-    - `KiipSDK.framework` (Not required with public release)
+    - `KiipSDK.framework` (Not required in final release)
     - `PassKit.framework`
     - `CoreMedia.framework`
 	
@@ -32,8 +32,11 @@
     - `close_button.png`
     - `close_button@2x.png`
     - `KiipSDKResources.bundle`
-	
+
 - Set "Bundle display name" in your apps Info.plist
+
+- Set `mediabrixAppID` in your Info.plist to the MediaBrix app ID that was provided to you
+- Set `mediabrixProperty` in your Info.plist to the MediaBrix property that was provided to you
 
 - In the file where you want to show an ad:
 
