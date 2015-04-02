@@ -38,6 +38,8 @@
 - Set `mediabrixAppID` in your Info.plist to the MediaBrix app ID that was provided to you
 - Set `mediabrixProperty` in your Info.plist to the MediaBrix property that was provided to you
 
+- Set `NSLocationWhenInUseUsageDescription` to an explanation for permission dialogs asking for location information.
+
 - In the file where you want to show an ad:
 
 ```objc
