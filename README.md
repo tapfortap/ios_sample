@@ -62,16 +62,6 @@
 } onAdDidShow:nil onAdWasTapped:nil onAdWasDismissed:nil];
 ```
 
-- Show a Break interstitial:
-
-```objc
-[TFTInterstitial loadBreakInterstitialWithCallbackOnReceivedAd:^(TFTInterstitial *interstitial) {
-    [interstitial showWithViewController:self];
-} onAdDidFail:^(TFTInterstitial *interstitial, NSString *reason) {
-    NSLog(@"Ad failed: %@", reason);
-} onAdDidShow:nil onAdWasTapped:nil onAdWasDismissed:nil];
-```
-
 - Show a Achievement interstitial:
 
 ```objc
