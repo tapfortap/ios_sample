@@ -23,7 +23,6 @@
 		5F55D1EF1AC0C4ED00A584A8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F55D1EE1AC0C4ED00A584A8 /* CoreTelephony.framework */; };
 		5F55D1F31AC0C51100A584A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F55D1F21AC0C51100A584A8 /* AVFoundation.framework */; };
 		5F55D1F51AC0C56C00A584A8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F55D1F41AC0C56C00A584A8 /* AudioToolbox.framework */; };
-		5F55D1F71AC0C5F900A584A8 /* iOS_Tutela_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F55D1F61AC0C5F900A584A8 /* iOS_Tutela_SDK.framework */; };
 		5F55D1F81AC0C61F00A584A8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F55D1DC1AC0C40400A584A8 /* libz.dylib */; };
 		5F55D1FA1AC0C63400A584A8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F55D1F91AC0C63400A584A8 /* AdSupport.framework */; };
 		5F55D1FC1AC0C65B00A584A8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F55D1FB1AC0C65B00A584A8 /* MobileCoreServices.framework */; };
@@ -103,7 +102,6 @@
 				5F55D1E51AC0C47100A584A8 /* MediaPlayer.framework in Frameworks */,
 				5F55D1E31AC0C45C00A584A8 /* Social.framework in Frameworks */,
 				5F55D1E11AC0C43C00A584A8 /* libxml2.dylib in Frameworks */,
-				5F55D1F71AC0C5F900A584A8 /* iOS_Tutela_SDK.framework in Frameworks */,
 				5F55D1DF1AC0C41C00A584A8 /* libsqlite3.dylib in Frameworks */,
 				5F55D1DB1AC0C3F000A584A8 /* SystemConfiguration.framework in Frameworks */,
 				5F55D2061AC0C8C500A584A8 /* libMediaBrix.a in Frameworks */,
