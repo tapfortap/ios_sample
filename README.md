@@ -28,9 +28,8 @@
 	
 - Add in the following resources:
 
+    - `TapForTapResources.bundle`
     - `MediaBrix.bundle`
-    - `close_button.png`
-    - `close_button@2x.png`
     - `KiipSDKResources.bundle`
 
 - Set "Bundle display name" in your apps Info.plist
