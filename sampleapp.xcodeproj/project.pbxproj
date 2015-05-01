@@ -32,9 +32,8 @@
 		5F55D2021AC0C6AA00A584A8 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F55D2011AC0C6AA00A584A8 /* PassKit.framework */; };
 		5F55D2061AC0C8C500A584A8 /* libMediaBrix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F55D2051AC0C8C500A584A8 /* libMediaBrix.a */; };
 		5F55D2081AC0C99900A584A8 /* MediaBrix.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F55D2071AC0C99900A584A8 /* MediaBrix.bundle */; };
-		5F55D20B1AC0C9B500A584A8 /* close-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F55D2091AC0C9B500A584A8 /* close-button.png */; };
-		5F55D20C1AC0C9B500A584A8 /* close-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F55D20A1AC0C9B500A584A8 /* close-button@2x.png */; };
 		5F55D20E1AC0CC0600A584A8 /* KiipSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F55D20D1AC0CC0600A584A8 /* KiipSDKResources.bundle */; };
+		D413BAF21AF304D500B1BAE5 /* TapForTapResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D413BAF11AF304D500B1BAE5 /* TapForTapResources.bundle */; };
 		D430D4591ACCADC600962179 /* TapForTap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D430D4581ACCADC600962179 /* TapForTap.framework */; };
 		D430D45B1ACCB1E000962179 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D430D45A1ACCB1E000962179 /* CoreMedia.framework */; };
 		D430D45D1ACCB4F400962179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F55D1B31AC0ACB500A584A8 /* Main.storyboard */; };
@@ -77,6 +76,7 @@
 		5F55D2091AC0C9B500A584A8 /* close-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-button.png"; sourceTree = "<group>"; };
 		5F55D20A1AC0C9B500A584A8 /* close-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-button@2x.png"; sourceTree = "<group>"; };
 		5F55D20D1AC0CC0600A584A8 /* KiipSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KiipSDKResources.bundle; sourceTree = "<group>"; };
+		D413BAF11AF304D500B1BAE5 /* TapForTapResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapForTapResources.bundle; sourceTree = "<group>"; };
 		D430D4581ACCADC600962179 /* TapForTap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapForTap.framework; path = sampleapp/TapForTap.framework; sourceTree = "<group>"; };
 		D430D45A1ACCB1E000962179 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -117,6 +117,7 @@
 		5F55D19D1AC0ACB400A584A8 = {
 			isa = PBXGroup;
 			children = (
+				D413BAF11AF304D500B1BAE5 /* TapForTapResources.bundle */,
 				D430D45A1ACCB1E000962179 /* CoreMedia.framework */,
 				D430D4581ACCADC600962179 /* TapForTap.framework */,
 				5F55D2011AC0C6AA00A584A8 /* PassKit.framework */,
@@ -239,12 +240,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D413BAF21AF304D500B1BAE5 /* TapForTapResources.bundle in Resources */,
 				D430D45E1ACCB4FA00962179 /* LaunchScreen.xib in Resources */,
 				D430D45D1ACCB4F400962179 /* Main.storyboard in Resources */,
-				5F55D20B1AC0C9B500A584A8 /* close-button.png in Resources */,
 				5F55D2081AC0C99900A584A8 /* MediaBrix.bundle in Resources */,
 				5F55D1B71AC0ACB500A584A8 /* Images.xcassets in Resources */,
-				5F55D20C1AC0C9B500A584A8 /* close-button@2x.png in Resources */,
 				5F55D20E1AC0CC0600A584A8 /* KiipSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
